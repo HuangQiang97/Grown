@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.Date;
 import java.util.LinkedList;
 
 /**
@@ -50,4 +51,36 @@ public class Util {
         }
         return colorArray;
     }
+
+    /*
+     *
+     *@描述 ：根据数组点对输出图像进行绘制边界。
+     *@参数 :[RGB, printMap, outputImage]
+     *@返回值:void
+     *@创建人 : 黄强
+     *@创建时间  2018/8/11 13:20
+     *@修改人和其它信息：
+     *@版本：
+     */
+    public static  void printImage(int RGB,byte[][]printMap,BufferedImage outputImage){
+        //对图像绘制边缘线。
+        for (int i=0;i<height;i++){
+            for (int j=0;j<width;j++){
+                if (printMap[i][j]==1){
+                    outputImage.setRGB(j,i,RGB);
+                }
+            }
+        }
+        //输出最终图像。
+        Date date=new Date();
+        try {
+            ImageIO.write(outputImage,"jpg",new File("Result\\grownPicture\\ "+date.getHours()+date.getMinutes()+".jpg"));
+        } catch (IOException e) {
+            e.printStackTrace();
+            throw new RuntimeException("\n生长文件无法写出！\n");
+        }
+    }
+
+
+
 }

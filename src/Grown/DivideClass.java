@@ -19,6 +19,7 @@ public class DivideClass {
     static int T1;
     static int T2;
 
+
     public DivideClass(int T1,int T2) {
         //构造方法初始化T1，T2。
         this.T1=T1;

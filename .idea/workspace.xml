@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26f2a4da-8f3f-4742-ac9c-7ba659c44256" name="Default Changelist" comment="" />
+    <list default="true" id="26f2a4da-8f3f-4742-ac9c-7ba659c44256" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/inputImage/Pic_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grown/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grown/Combine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grown/Grown/DPFGrown.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grown/Grown/DPFGrown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grown/Grown/DivideClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grown/Grown/DivideClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grown/Grown/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grown/Grown/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grown/Grown/Seed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grown/Grown/Seed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grown/Grown/Test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grown/Grown/Test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grown/Grown/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grown/Grown/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Grown/DPFGrown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grown/DPFGrown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Grown/DivideClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grown/DivideClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Grown/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grown/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Grown/Seed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grown/Seed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Grown/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grown/Test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Grown/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grown/Util.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,58 +26,65 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Grown$Main.ic" NAME="Main Coverage Results" MODIFIED="1533444527069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1024360914">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.8" value="7" />
+          <entry key="project.open.time.9" value="7" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="README" value="1" />
-          <entry key="java" value="44" />
-          <entry key="jpg" value="133" />
-          <entry key="png" value="25" />
+          <entry key="README" value="2" />
+          <entry key="java" value="86" />
+          <entry key="jpg" value="228" />
+          <entry key="png" value="39" />
           <entry key="requirements" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="158" />
-          <entry key="JAVA" value="44" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Image" value="267" />
+          <entry key="JAVA" value="86" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4387" />
+          <entry key="java" value="10782" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4387" />
+          <entry key="JAVA" value="10782" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
     </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Grown" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Grown/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            <state relative-caret-position="330">
+              <caret line="174" selection-start-line="174" selection-end-line="174" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,24 +93,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2150.jpg">
+        <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 131.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Grown/DivideClass.java">
+        <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2239.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Grown/Combine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="90" column="73" selection-start-line="90" selection-start-column="73" selection-end-line="90" selection-end-column="73" />
+            <state relative-caret-position="177">
+              <caret line="300" column="101" selection-start-line="300" selection-start-column="87" selection-end-line="300" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Grown/Area.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-359">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Result/sortedColor/2054.jpg">
+        <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2243.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -96,32 +142,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inputImage/Pic_1.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inputImage/Pic_2.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inputImage/Pic_4.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inputImage/Pic_6.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/RandomAccessFile.java">
+        <entry file="file://$PROJECT_DIR$/src/Grown/DPFGrown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5450">
-              <caret line="242" selection-start-line="242" selection-end-line="242" />
+            <state relative-caret-position="-2408">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2247.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2246.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -148,7 +187,14 @@
         <option value="$PROJECT_DIR$/src/DivideClass.java" />
         <option value="$PROJECT_DIR$/src/Grown/a.java" />
         <option value="$PROJECT_DIR$/src/Grown/DivideClass.java" />
+        <option value="$PROJECT_DIR$/src/Grown/Test/Area.java" />
+        <option value="$PROJECT_DIR$/src/Grown/Seed.java" />
+        <option value="$PROJECT_DIR$/src/Grown/Area.java" />
+        <option value="$PROJECT_DIR$/src/Grown/Test/Test.java" />
+        <option value="$PROJECT_DIR$/src/Grown/Util.java" />
         <option value="$PROJECT_DIR$/src/Grown/Main.java" />
+        <option value="$PROJECT_DIR$/src/Grown/Combine.java" />
+        <option value="$PROJECT_DIR$/src/Grown/DPFGrown.java" />
       </list>
     </option>
   </component>
@@ -159,10 +205,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-619" />
-    <option name="y" value="-28" />
+    <option name="x" value="50" />
+    <option name="y" value="-25" />
     <option name="width" value="1750" />
-    <option name="height" value="1104" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -180,7 +226,7 @@
             <path>
               <item name="Grown" type="b2602c69:ProjectViewProjectNode" />
               <item name="Grown" type="462c0819:PsiDirectoryNode" />
-              <item name="inputImage" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Grown" type="b2602c69:ProjectViewProjectNode" />
@@ -195,39 +241,28 @@
             </path>
             <path>
               <item name="Grown" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Grown" type="462c0819:PsiDirectoryNode" />
-              <item name="Result" type="462c0819:PsiDirectoryNode" />
-              <item name="sortedColor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Grown" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Grown" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Grown" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Grown" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Grown" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533214532080" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534344636291" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IdeaProject\Grown\inputImage" />
       <recent name="F:\IdeaProject\Grown" />
       <recent name="F:\IdeaProject\Grown\src" />
     </key>
@@ -292,16 +327,41 @@
       <workItem from="1533207464683" duration="1902000" />
       <workItem from="1533210475387" duration="4056000" />
       <workItem from="1533217763595" duration="295000" />
+      <workItem from="1533349152640" duration="6617000" />
+      <workItem from="1533374767715" duration="5540000" />
+      <workItem from="1533442960017" duration="12783000" />
+      <workItem from="1533519069052" duration="3495000" />
+      <workItem from="1533795377292" duration="1066000" />
+      <workItem from="1533893774537" duration="1918000" />
+      <workItem from="1533953661299" duration="12401000" />
+      <workItem from="1534002519279" duration="2715000" />
+      <workItem from="1534006418354" duration="3126000" />
+      <workItem from="1534051633132" duration="5161000" />
+      <workItem from="1534089912408" duration="2379000" />
+      <workItem from="1534129746378" duration="8947000" />
+      <workItem from="1534221370659" duration="355000" />
+      <workItem from="1534222400261" duration="2000" />
+      <workItem from="1534336765520" duration="8061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40157000" />
+    <option name="totallyTimeSpent" value="114723000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49830508" visible="true" weight="0.24932976" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49830508" visible="true" weight="0.24664879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -310,16 +370,16 @@
       <window_info id="Favorites" order="6" sideWeight="0.5016949" side_tool="true" weight="0.13404825" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32551318" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23167156" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4032258" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8806971" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7727882" weight="0.017621145" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32892805" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.09985316" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.16568916" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32892805" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2272118" side_tool="true" weight="1.0" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49731904" weight="0.32892805" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -329,27 +389,28 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13404825" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49830508" visible="true" weight="0.02613941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5016949" side_tool="true" weight="0.13404825" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27859238" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4032258" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32551318" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8806971" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.7727882" visible="true" weight="0.25844347" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32892805" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.09985316" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.16568916" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32892805" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2272118" side_tool="true" weight="1.0" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49731904" weight="0.32892805" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -359,6 +420,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,88 +434,59 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Grown/Seed.java</url>
-          <line>25</line>
+          <line>31</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Grown/Main.java</url>
-          <line>17</line>
+          <line>174</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Result/ 1628.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 1640.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 1639.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 1637.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 1111.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 1649.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 1652.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 1654.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 1659.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 1737.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 1721.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 1712.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 1711.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/sortPic177.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 178.jpg" />
-    <entry file="file://$PROJECT_DIR$/inputImage/Pic_5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputImage/Pic_7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputImage/Pic_8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputImage/Pic_9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputImage/Pic_10.jpg">
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 1259.jpg" />
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 1620.jpg" />
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 1627.jpg" />
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 1825.jpg" />
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 1835.jpg" />
+    <entry file="file://$PROJECT_DIR$/inputImage/TIM图片20180805132600.jpg" />
+    <entry file="file://$PROJECT_DIR$/inputImage/Pic_14.png" />
+    <entry file="file://$PROJECT_DIR$/inputImage/Pic_12.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/inputImage/Pic_11.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result/sortPic191.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/sortPic193.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 193.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 192.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 1911.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 1910.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 197.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 196.jpg" />
-    <entry file="file://$PROJECT_DIR$/Result/ 1932.jpg" />
-    <entry file="file://$PROJECT_DIR$/inputImage/Pic_12.jpg">
+    <entry file="file://$PROJECT_DIR$/inputImage/Pic_10.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result/ 1950.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/Grown/a.java" />
-    <entry file="file://$PROJECT_DIR$/src/Grown/DPFGrown.java">
+    <entry file="file://$PROJECT_DIR$/inputImage/Pic_9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputImage/Pic_8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputImage/Pic_7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 1744.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="22750">
+          <caret line="969" column="25" selection-start-line="969" selection-start-column="25" selection-end-line="969" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Grown/Util.java">
+    <entry file="file://$PROJECT_DIR$/src/Grown/DivideClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Grown/GetThreshold.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="350">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -462,100 +495,156 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Grown/Seed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="352">
+          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1287#1288#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Grown/Test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputImage/Pic_13.jpg">
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2043.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Grown/DivideClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="90" column="73" selection-start-line="90" selection-start-column="73" selection-end-line="90" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Result/sortedColor/2054.jpg">
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 145.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/inputImage/Pic_1.png">
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 147.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 149.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 1019.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 1020.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 1024.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 143.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/inputImage/Pic_2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/inputImage/Pic_3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/inputImage/Pic_4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputImage/Pic_5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 144.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputImage/Pic_1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/inputImage/Pic_6.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/RandomAccessFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5450">
-          <caret line="242" selection-start-line="242" selection-end-line="242" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2054.jpg">
+    <entry file="file://$PROJECT_DIR$/inputImage/Pic_13.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Grown/Main.java">
+    <entry file="file://$PROJECT_DIR$/inputImage/Pic_14.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Grown/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="546">
+          <caret line="76" column="42" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 1734.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2134.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2142.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2129.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2128.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2150.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2054.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2239.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2246.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2243.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 2247.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Grown/DPFGrown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2408">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Grown/Area.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-359">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Grown/Combine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="300" column="101" selection-start-line="300" selection-start-column="87" selection-end-line="300" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Grown/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result/grownPicture/ 131.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
   </component>

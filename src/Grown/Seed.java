@@ -23,6 +23,12 @@ public Seed(int x, int y, int RGB) {
     this.RGB = RGB;
 }
     public Seed (){}
+    public Seed(int x,int y){
+
+    this.x=x;
+    this.y=y;
+    }
+
 //获得R，G，B值。
 public int  getRed(){
     return (int)((RGB&0xff0000)>>16);

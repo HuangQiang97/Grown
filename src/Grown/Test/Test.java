@@ -1,5 +1,7 @@
 package Grown.Test;
 
+import Grown.Area;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.image.BufferedImage;
@@ -42,6 +44,19 @@ public class Test {
 //        ) {
 //            System.out.println(i);
 //        }
+
+
+//        int[][]a=new int [23][3];
+//        System.out.println(" 111  "+a.length);
+
+
+        LinkedList<Area> areas=new LinkedList<>();
+        areas.add(new Area(1,2,3,4));
+        Area popArea=areas.get(0);
+        popArea.setBlueSum(2);
+        System.out.println(areas.get(0).getBlueSum());
+
+
 
 
 
