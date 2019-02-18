@@ -10,7 +10,7 @@ import java.util.LinkedList;
 public class Main {
     public static void main(String[] args) {
         //输入图像文件路径。
-        String filePath = "inputImage\\Pic_6.jpg";
+        String filePath = "F:\\IdeaProject\\DIP\\Grown\\inputImage\\fish.png";
         //获得输入图像的彩色像素点二维数组。
         Color[][] colorArray = Util.getColorArray(filePath);
         //获得初步种子链表。
@@ -157,21 +157,21 @@ public class Main {
         System.out.println("最终种子数 区域数\n" + hashMap.size() + "      " + areaLinkedList.size());
 
 
-        //获得各个区域边缘线集合。
-        LinkedList<LinkedList<Seed>> edgeLineList = dpfGrown.getEdgeLineList();
-        //获得区域集合。
-        LinkedList<Area> areaList = dpfGrown.getAreaList();
-        Combine combineArea=new Combine(areaLinkedList,printMap,edgeLineList);
-        //获得各个区域相邻关系。
-        byte[][] nearMap=combineArea.getNearMap(edgeLineList);
-        //合并过小区域。
-        combineArea.combineSmallArea(nearMap);
-        //获得区域间阈值。
-        int T =combineArea.getThreshold();
-        combineArea.initDistanceArray(T,nearMap);
-        //进行区域合并。
-        combineArea.combineArea(T,nearMap);
-        //输出最终图像。
+//        //获得各个区域边缘线集合。
+//        LinkedList<LinkedList<Seed>> edgeLineList = dpfGrown.getEdgeLineList();
+//        //获得区域集合。
+//        LinkedList<Area> areaList = dpfGrown.getAreaList();
+//        Combine combineArea=new Combine(areaLinkedList,printMap,edgeLineList);
+//        //获得各个区域相邻关系。
+//        byte[][] nearMap=combineArea.getNearMap(edgeLineList);
+//        //合并过小区域。
+//        combineArea.combineSmallArea(nearMap);
+//        //获得区域间阈值。
+//        int T =combineArea.getThreshold();
+//        combineArea.initDistanceArray(T,nearMap);
+//        //进行区域合并。
+//        combineArea.combineArea(T,nearMap);
+//        //输出最终图像。
         Util.printImage(0xff0000,printMap,outputImage);
 
 

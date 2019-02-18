@@ -93,7 +93,7 @@ public class DPFGrown {
                             seedStack.add(new Seed(nextX, nextY, colorArray[nextX][nextY].getRGB()));
                         } else {
                             //对边缘点加入该集合边缘点链表。
-                            if (!similarFlag) {
+                           if (!similarFlag) {
                                 for (int i = nextX - 1; i < nextX + 1; i++) {
                                     for (int j = nextY - 1; j < nextY + 1; j++) {
                                         if (i >= 0 && i < height && j >= 0 && j < width) {
@@ -105,7 +105,7 @@ public class DPFGrown {
                                             printMap[i][j] = 1;
                                         }
                                     }
-                                }
+                               }
                             }
                         }
                     }
@@ -126,18 +126,20 @@ public class DPFGrown {
      *@修改人和其它信息：
      *@版本：
      */
-    public boolean isSimilar(int x, int y, Seed seed){
+    public boolean isSimilar(int x, int y, Seed seed) {
 
-        int distance=(int) (Math.pow(colorArray[x][y].getRed()-seed.getRed(),2)+
-                Math.pow(colorArray[x][y].getGreen()-seed.getGreen(),2)+
-                Math.pow(colorArray[x][y].getBlue()-seed.getBlue(),2));
-        if (distance< DivideClass.T2){
-            sameClassProcessMap[x][y]=1;
+        int distance = (int) (Math.pow(colorArray[x][y].getRed() - seed.getRed(), 2) +
+                Math.pow(colorArray[x][y].getGreen() - seed.getGreen(), 2) +
+                Math.pow(colorArray[x][y].getBlue() - seed.getBlue(), 2));
+        if (distance < DivideClass.T2) {
+            sameClassProcessMap[x][y] = 1;
         }
 
-        if(distance<seed.getBestThreshold()){
+        if (distance < seed.getBestThreshold()) {
             return true;
+        } else {
+            return false;
         }
-        else return false;
+
     }
 }

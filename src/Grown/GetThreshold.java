@@ -101,7 +101,7 @@ public class GetThreshold  implements Runnable{
                     int variance_2=lowPowSum/lowCount;
 
                     if (variance_2!=0) {
-                        if ((g = (variance_1 / variance_2)) > maxG) {
+                        if ((g = (variance_1 )/variance_2) > maxG) {
                             maxG = g;
                             bestThreshold = threshold;
                         }
@@ -111,7 +111,7 @@ public class GetThreshold  implements Runnable{
                 getDistance=true;
             }
             //设置最佳阈值。
-            seed.setBestThreshhold(bestThreshold);
+            seed.setBestThreshhold(bestThreshold-10000);
         }
     }
 }
